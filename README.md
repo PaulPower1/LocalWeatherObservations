@@ -1,7 +1,7 @@
 App to look up current weather observations for a given location
 ================================================================
 This postman collection takes a location (city, stateCode, countryCode), looks up the latitude and longitude of this location and sets these as environment variables for use in subsequent requests.
-e.g. get/ http://api.openweathermap.org/geo/1.0/direct?q={{City}},{{StateCode}},{{CountryCode}}&limit=10&appid={{API_KEY}}
+e.g. get/ https://api.openweathermap.org/geo/1.0/direct?q={{City}},{{StateCode}},{{CountryCode}}&limit=10&appid={{API_KEY}}
    
 where 
       City       = "Melbourne"
@@ -10,7 +10,7 @@ where
       API_KEY = needs to be obtained from https://openweathermap.org/ which is free to developers up to a request limit
       
 The WeatherObservationsBasedonLocation /get request outputs weather observations in json using.
-e.g. https://api.openweathermap.org/data/2.5/weather?lat={{latitude}}&lon={{longitude}}&appid={{API_KEY}}
+e.g. get/ https://api.openweathermap.org/data/2.5/weather?lat={{latitude}}&lon={{longitude}}&appid={{API_KEY}}
 
  where 
     lat  = "latitude obtained from the Get/ GeoLocationLookup request"
