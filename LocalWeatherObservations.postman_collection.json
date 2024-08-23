@@ -127,7 +127,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://api.openweathermap.org/geo/1.0/direct?q={{City}},{{StateCode}},{{CountryCode}}&limit=10&appid={{API_KEY}}",
+					"raw": "https://api.openweathermap.org/geo/1.0/direct?q={{City}},{{StateCode}},{{CountryCode}}&limit=10&appid={{API_KEY}}",
 					"protocol": "http",
 					"host": [
 						"api",
