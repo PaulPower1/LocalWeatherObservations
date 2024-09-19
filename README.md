@@ -14,7 +14,7 @@ e.g. get/ https://api.openweathermap.org/data/2.5/weather?lat={{latitude}}&lon={
 
  where 
     lat  = "latitude obtained from the Get/ GeoLocationLookup request"
-    long = "longitutde obtained from the Get/ GeoLocationLookup request"
+    long = "longitude obtained from the Get/ GeoLocationLookup request"
     API_KEY = needs to be obtained from https://openweathermap.org/ which is free to developers up to a request limit
       
 Notes:
